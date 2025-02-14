@@ -1,0 +1,19 @@
+meta {
+  name: update
+  type: http
+  seq: 2
+}
+
+put {
+  url: http://localhost:3010/menu/67aedd811240a23e064fe90d
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name":"al",
+    "description":"a;ssdfldkfj",
+    "price":12
+  }
+}

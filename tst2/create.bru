@@ -1,0 +1,19 @@
+meta {
+  name: create
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3010/menu
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name":"ral",
+    "description":"dkfj",
+    "price":113
+  }
+}
